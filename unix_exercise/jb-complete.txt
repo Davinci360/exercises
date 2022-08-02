@@ -1,0 +1,520 @@
+
+jason@JBPC MINGW64 ~/revature
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 46 (delta 6), reused 42 (delta 5), pack-reused 0
+Receiving objects: 100% (46/46), 5.05 KiB | 2.53 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+jason@JBPC MINGW64 ~/revature
+$ ls
+exercises/  revature_assig_1/
+
+jason@JBPC MINGW64 ~/revature
+$ cd exercises/
+
+jason@JBPC MINGW64 ~/revature/exercises (main)
+$ ls
+dummy_file  week1/
+
+jason@JBPC MINGW64 ~/revature/exercises (main)
+$ cd week1/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1 (main)
+$ cd unix_exercise/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise (main)
+$ cd house/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ cd basement/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash*
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../chest
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv chest ../chest
+mv: cannot stat 'chest': No such file or directory
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv chest ../chest/
+mv: cannot stat 'chest': No such file or directory
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  treasure1  washer
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv "treasure1" ../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/basement (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ cd floor0/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+brush  comb  shampoo  soap  toothbrush  toothpaste
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ fridge/
+bash: fridge/: Is a directory
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash*
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trasure4
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd..
+bash: cd..: command not found
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ba
+balcony/  bathroom/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash*
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls balcony/
+chair  plant
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash*
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ..toy-chest/
+bash: cd: ..toy-chest/: No such file or directory
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  truck
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house (main)
+$ cd floor2/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash*
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box2
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box3/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../../../../
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise (main)
+$ cd chest/
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise/chest (main)
+$ cd ..
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise (main)
+$ find . -name trash*
+
+jason@JBPC MINGW64 ~/revature/exercises/week1/unix_exercise (main)
+$
