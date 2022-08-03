@@ -7,8 +7,11 @@ public class GraderBot {
 
 
         Integer grade = intScanner.nextInt();  // Read user input
-        if(grade >= 65) {System.out.println("you passed");}
-        else {System.out.println("you failed");}
+        if(grade >= 90) {System.out.println("you got an A");}
+        else if(grade >= 80) {System.out.println("you got a B");}
+        else if(grade >= 70) {System.out.println("you got a C");}
+        else if(grade < 65) {System.out.println("you failed");}
+
         //System.out.println("Your grade is: " + grade);  // Output user input
 
 
