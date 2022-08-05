@@ -1,0 +1,16 @@
+## Classes and Objects
+- For this exercise, you will pick a real-life object to write some java code about. 
+- Example: superhero, food, etc.
+- Requirements
+    - At least 5 member variables
+    - At least 3 methods
+    - At least 2 constructors, separate from the 3 methods
+    - Also write some code to try out some of the methods and variables you created
+    - Override either the toString or equals method and write code to test those out
+- Since this project will have multiple files, you'll want to upload the entire project. 
+    - In intelliJ, you can right-click the left side-bar, open-in, and then pick explorer (or "finder" for Mac users)
+    - Then, navigate to the folder that contains the entire project
+    - Copy the project and paste it in the Github repo that you've been uploading your exercises in
+    - Alternatively, you can just create the project in the repository to begin with, removing the need to copy/paste it
+    - Finally, push it up and send me the link on Teams (email if Teams is not set up yet)
+- Feel free to talk with your fellow associates for ideas/help, but you must submit your own code
